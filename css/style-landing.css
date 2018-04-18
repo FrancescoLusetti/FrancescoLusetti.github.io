@@ -7,17 +7,10 @@
 
 body{
   font-family:roboto;
-  height: 100%
+  height: 100%;
+  background-image: url('../Img/bg-landing.jpg');
 }
 
 html{
   height: 100%;
-}
-
-.bg{
-  background-image: url('../Img/bg-landing.jpg');
-  height:100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
