@@ -8,9 +8,17 @@
 body{
   font-family:roboto;
   height: 100%;
-  background-image: url('../Img/bg-landing.jpg');
+  background-color:#061415;
 }
 
 html{
   height: 100%;
+}
+
+.jumbotron{
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2), 0 6px 15px rgba(255, 255, 255, 0.19);
+}
+
+.btn{
+  width: 4em;
 }
