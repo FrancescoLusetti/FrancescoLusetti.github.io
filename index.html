@@ -1,45 +1,59 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <link href="css/style-landing.css" rel="stylesheet">
-    <title>Francesco Lusetti</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Cover Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
   </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-white" style="font-family:Montserrat;">
-        <div class="container">
-          <a class="navbar-brand font-weight-bold" href="#">LUSETTI FRANCESCO</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
-            <ul class="navbar-nav mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link text-uppercase" href="Articles\Asl.html">asl</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link text-uppercase" href="Articles\AboutMe.html">about me</a>
-              </li>
-            </ul>
-          </div>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto border-bottom border-white">
+        <div class="inner ">
+          <h3 class="masthead-brand">Francesco Lusetti</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="Articles\Asl.html">ASL</a>
+            <a class="nav-link" href="Articles\AboutMe.html">ME</a>
+          </nav>
         </div>
-      </nav>
-    <div class="jumbotron page-center">
-      <h1 class="display-4 text-center">Welcome</h1>
-      <p class="lead text-center">Hi, I'm Francesco and I love coding<br></p>
-      <hr class="my-4">
-      <p>Here you could see my portfolio/CV and my ASL(Alternanza Scuola Lavoro)</p><br>
-      <div class="lead d-flex justify-content-center">
-        <a class="btn btn-primary btn-lg mx-auto" href="Articles\Asl.html" role="button">ASL</a>
-        <a class="btn btn-primary btn-lg mx-auto" href="Articles\AboutMe.html" role="button">ME</a>
-      </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Welcome</h1>
+        <p class="lead">I'm Francesco and here you can see my ASL(Alternanza Scuola Lavoro) and my portfolio</p>
+        <p class="lead">
+          <a href="Articles\Asl.html" class="btn btn-lg btn-secondary text-white">ASL</a>
+          <a href="Articles\AboutMe.html" class="btn btn-lg btn-secondary text-white">ABOUT ME</a>
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner text-white">
+          <p>&copy; FRANCESCO LUSETTI 2016-2018</p>
+        </div>
+      </footer>
     </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
   </body>
 </html>
