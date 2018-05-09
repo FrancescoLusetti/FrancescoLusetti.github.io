@@ -32,7 +32,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #2d2d2d;
   background: radial-gradient(circle, #2d2d2d, #1d1d1d, #000000);
 
 }
