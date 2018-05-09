@@ -36,13 +36,21 @@ a:hover {
   text-shadow: none;
 }
 
+.container{
+  width: 50%;
+}
+
+.container-fluid{
+  width: 75%;
+}
+
 /*
  * Base structure
  */
 
 html,
 body {
-  background-color: #2d2d2d;
+  background: radial-gradient(circle, #2d2d2d, #1d1d1d, #000000);
 
 }
 

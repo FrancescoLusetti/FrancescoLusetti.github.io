@@ -24,6 +24,17 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #3367d6!important;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+}
+
+.card{
+  text-shadow: none;
+}
 
 /*
  * Base structure
@@ -54,6 +65,10 @@ body {
 
 .container{
   width: 50%;
+}
+
+.container-fluid{
+  width: 75%;
 }
 
 /*
