@@ -1,9 +1,9 @@
 {
-    "short_name": "Self",
-    "name": "Luca Donno Self",
+    "short_name": "FL",
+    "name": "Francesco Lusetti",
     "icons": [
       {
-        "src": "style/icons-512.png",
+        "src": "style/favicon.png",
         "type": "image/png",
         "sizes": "512x512"
       }
