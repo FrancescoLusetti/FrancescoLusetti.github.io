@@ -29,6 +29,10 @@
     }
 }
 
+@font-face {
+    font-family: "Product Sans";
+    src: url(\style\pxiDypQkot1TnFhsFMOfGShVF9eO.ttf);
+  }
 
 body{
     transition: .5s;
@@ -57,14 +61,14 @@ body {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Product Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
 
 }
 
 main {
     padding: calc(10px + 8vw * 0.6);
-    padding-bottom: calc(30px + 6vw * 0.6);
+    padding-bottom: calc(5vw);
 }
 
 .logo {
@@ -84,7 +88,7 @@ main {
 }
 
 .links {
-    margin-top: 10vh;
+    margin-top: 22vh;
 }
 
 footer svg {
