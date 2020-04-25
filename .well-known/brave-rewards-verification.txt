@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: francescolusetti.github.io
+Token: 9f9be36bc5d18c451abf414ee8aed6e0ac0d42df7aee9b944b8aa001d1f0b10b

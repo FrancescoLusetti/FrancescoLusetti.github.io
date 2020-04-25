@@ -1,0 +1,207 @@
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #2c3038;
+        color: #fbfefe;
+    }
+
+    .github {
+        fill: white;
+    }
+
+    #moon-toggle {
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: #fafafa;
+        color: #030101;
+    }
+
+    .github {
+        fill: black;
+    }
+
+    #moon-toggle {
+        color: black;
+    }
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url(\style\pxiDypQkot1TnFhsFMOfGShVF9eO.ttf);
+  }
+
+body{
+    transition: .5s;
+}
+
+.night-mode {
+    color: #fbfefe !important;
+    background-color: #2c3038 !important;
+}
+
+.light-mode {
+    background-color: #fafafa !important;
+    color: #030101 !important;
+}
+
+.night-mode > #moon-toggle {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    top: 0;
+}
+
+body {
+    font-family: "Product Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+
+}
+
+main {
+    padding: calc(10px + 8vw * 0.6);
+    padding-bottom: calc(5vw);
+}
+
+.logo {
+    margin-bottom: 10vh;
+    width: 60px;
+    height: 60px;
+}
+
+.title {
+    font-size: calc(30px + 5vw * 0.6);
+}
+
+.desc {
+    font-size: calc(20px + 3vw * 0.6);
+    font-weight: 600;
+    width: calc(30px + 100% * 0.7);
+}
+
+.links {
+    margin-top: 22vh;
+}
+
+footer svg {
+    width: 38px;
+    height: 38px;
+}
+
+.instagram {
+    width: 35px;
+    height: 35px;
+    margin-left: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*project part*/
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: #5379FF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: calc(100vh);
+}
+
+.titleContainer>.title {
+    color: #fbfefe;
+    margin-top: 15px;
+    font-size: calc(10px + 5vw * 0.6);
+    font-weight: 600;
+}
+
+.titleContainer {
+    display: flex;
+}
+
+.arrow-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#arrow {
+    height: 50px;
+    width: 35px;
+    transform: scaleY(0.5);
+    opacity: 0.2;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    opacity: .2;
+
+    margin-top: 18px;
+}
+
+.arrow {
+    width: 21px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #000;
+}
+
+.arrow-left {
+    transform: rotate(20deg);
+    margin-right: -5px;
+}
+
+.arrow-right {
+    transform: rotate(-20deg);
+}
+
+#moon-toggle {
+    position: fixed;
+    top: 6px;
+    right: 16px;
+    font-size: 26px;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: #030101;
+}
+
+.night-mode #moon-toggle:visited {
+    color: #fafefe;
+}
+
+svg.github {
+    transition: .5s;
+}
+
+.light-mode #moon-toggle {
+    color : black;
+}
+
+.night-mode svg.github {
+    fill: white;
+}
+
+.light-mode svg.github {
+    transition: .5s;
+    fill: black;
+}
+
+.logo > svg {
+    fill: #5379FF;
+    height: 100px;
+}

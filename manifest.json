@@ -1,0 +1,16 @@
+{
+    "short_name": "FL",
+    "name": "Francesco Lusetti",
+    "icons": [
+      {
+        "src": "style/favicon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000"
+  }
