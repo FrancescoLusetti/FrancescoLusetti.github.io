@@ -1,5 +1,5 @@
 var counter = 0
-var MaxZeroBin = 8
+var MaxZeroBin = 32
 var max = Math.pow(2,MaxZeroBin)
 var MaxZeroDec = max.toString().length
 var MaxZeroHex = MaxZeroBin/4
